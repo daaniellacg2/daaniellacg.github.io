@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: MontserratBlack;
+    src: url("Montserrat-Black.ttf");
+}
+@font-face {
+    font-family: Montserrat2;
+    src: url("Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: Montserrat3;
+    src: url("Montserrat-ExtraBold.ttf");
+}
+.titulo{
+    font-family: MontserratBlack;
+    font-size: 30px;
+    text-align: center; 
+}
+body {
+    font-family: Montserrat;
+    font-size: 15px; 
+    font-weight: bold;
+}
+header {
+    color: white;
+    background-image: url('fondo2.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 225px;
+}
+.paella {
+    background-image: url('tabla.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 450px; 
+    height: auto;
+    background-color: rgb(204, 204, 197);
+    padding:5%;
+}
+.PrepPaella {
+    font-family: Montserrat2;
+}
+.punto{
+    font-family: MontserratBlack;
+    font-size: 18px;
+}
+.headers {
+    font-family: Montserrat3;
+}
+.informacion {
+    font-family: Montserrat;
+}
